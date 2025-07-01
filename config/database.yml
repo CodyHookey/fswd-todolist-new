@@ -25,4 +25,4 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  database: to_do_list_fs
+  url: <%= ENV['DATABASE_URL'] %>
