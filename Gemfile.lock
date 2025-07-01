@@ -115,6 +115,7 @@ GEM
       railties (>= 6.1.0)
     ffi (1.17.2)
     ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -157,6 +158,8 @@ GEM
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     nokogiri (1.18.8-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-linux-gnu)
       racc (~> 1.4)
     parallel (1.27.0)
     parser (3.3.8.0)
@@ -310,6 +313,7 @@ GEM
 PLATFORMS
   arm64-darwin-24
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   awesome_print (~> 1.9)
